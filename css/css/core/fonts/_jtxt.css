@@ -1,0 +1,7 @@
+html:lang(jp) .jtxt {
+  white-space: normal;
+  position: relative; }
+  html:lang(jp) .jtxt > span {
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap; }

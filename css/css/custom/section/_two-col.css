@@ -1,0 +1,340 @@
+.section-twoCol-container .section-twoCol-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  position: relative; }
+  .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container {
+    width: 45.6%;
+    position: relative;
+    z-index: 5; }
+    @media only screen and (max-width: 767px) {
+      .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container {
+        display: none; } }
+    .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .left-twoCol-wrapper {
+      top: 0 !important; }
+    .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .left-nav-menu-container {
+      width: 100vw;
+      height: em(75);
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      max-width: 1601px; }
+      .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .left-nav-menu-container .left-nav-menu-wrapper {
+        background-color: #d7d7d7;
+        width: 45.6%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; }
+        @media only screen and (max-width: 1615px) {
+          .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .left-nav-menu-container .left-nav-menu-wrapper {
+            width: 45.1%; } }
+        @media only screen and (max-width: 1366px) {
+          .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .left-nav-menu-container .left-nav-menu-wrapper {
+            width: 45.6%; } }
+        @media only screen and (max-width: 991px) {
+          .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .left-nav-menu-container .left-nav-menu-wrapper {
+            width: 45%; } }
+        @media only screen and (max-width: 979px) {
+          .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .left-nav-menu-container .left-nav-menu-wrapper {
+            width: 44.8%; } }
+        .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .left-nav-menu-container .left-nav-menu-wrapper ul {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          padding: 0;
+          width: 82.8%;
+          margin: 0 auto;
+          margin-right: em(55); }
+          .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .left-nav-menu-container .left-nav-menu-wrapper ul li {
+            font-size: em(21);
+            font-weight: 600;
+            text-transform: uppercase;
+            white-space: nowrap; }
+            .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .left-nav-menu-container .left-nav-menu-wrapper ul li a {
+              text-decoration: none;
+              color: #152843;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              height: 3.571em;
+              width: 100%;
+              overflow: hidden;
+              -webkit-box-align: center;
+              -ms-flex-align: center;
+              align-items: center; }
+              .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .left-nav-menu-container .left-nav-menu-wrapper ul li a span {
+                display: inline-block; }
+              .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .left-nav-menu-container .left-nav-menu-wrapper ul li a .section-no {
+                padding: 0 0.6em; }
+      .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .left-nav-menu-container .right-nav-menu-wrapper {
+        width: 54.4%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        background-color: #ebebeb;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: 0 em(85) 0 em(35); }
+        .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .left-nav-menu-container .right-nav-menu-wrapper .container__btn-header {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex; }
+          .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .left-nav-menu-container .right-nav-menu-wrapper .container__btn-header .btn__header {
+            text-transform: uppercase;
+            color: #5e7ba6;
+            font-size: em(13);
+            border: 2px #1d2759 solid;
+            border-radius: 25px;
+            padding: em(15);
+            text-decoration: none;
+            text-align: center; }
+            .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .left-nav-menu-container .right-nav-menu-wrapper .container__btn-header .btn__header:first-child {
+              margin-right: em(10); }
+          .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .left-nav-menu-container .right-nav-menu-wrapper .container__btn-header .btn__download, .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .left-nav-menu-container .right-nav-menu-wrapper .container__btn-header .btn__infographics {
+            display: none;
+            opacity: 0;
+            pointer-events: none; }
+            .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .left-nav-menu-container .right-nav-menu-wrapper .container__btn-header .btn__download.active, .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .left-nav-menu-container .right-nav-menu-wrapper .container__btn-header .btn__infographics.active {
+              pointer-events: visible;
+              opacity: 1;
+              display: block; }
+        .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .left-nav-menu-container .right-nav-menu-wrapper .container__logo-right .logo-right {
+          display: block; }
+          .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .left-nav-menu-container .right-nav-menu-wrapper .container__logo-right .logo-right img {
+            width: em(163);
+            height: auto; }
+            @media only screen and (max-width: 1060px) {
+              .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .left-nav-menu-container .right-nav-menu-wrapper .container__logo-right .logo-right img {
+                width: em(123); } }
+        .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .left-nav-menu-container .right-nav-menu-wrapper .container__logo-right .btn__logo {
+          display: none;
+          opacity: 0;
+          pointer-events: none; }
+          .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .left-nav-menu-container .right-nav-menu-wrapper .container__logo-right .btn__logo.active {
+            pointer-events: visible;
+            opacity: 1;
+            display: block; }
+    .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .btn__close-infographics {
+      display: none;
+      width: em(40);
+      height: em(40);
+      background-color: orange; }
+      .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .btn__close-infographics.active {
+        display: block; }
+      .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .btn__close-infographics-wrapper {
+        position: absolute;
+        display: block;
+        top: 7vw;
+        right: -49vw;
+        z-index: 5; }
+    .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .left-content-container {
+      position: relative;
+      width: 100%; }
+      .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .left-content-container .left-content-wrapper {
+        height: calc(100vh - 4.6875em);
+        display: none;
+        position: absolute;
+        width: 100%; }
+        .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .left-content-container .left-content-wrapper.active {
+          display: block; }
+        .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .left-content-container .left-content-wrapper .bg-img-container {
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: top center;
+          height: 100%;
+          width: 100%; }
+          .section-twoCol-container .section-twoCol-wrapper .left-twoCol-container .left-content-container .left-content-wrapper .bg-img-container.bg-after {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 2;
+            top: 0;
+            left: 0;
+            opacity: 0; }
+  .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container {
+    width: 54.4%; }
+    @media only screen and (max-width: 767px) {
+      .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container {
+        width: 100%;
+        font-size: 4.267vw; } }
+    .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .right-content-container {
+      padding-top: em(75); }
+      @media only screen and (max-width: 767px) {
+        .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .right-content-container {
+          padding-top: 0; } }
+      .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .right-content-container .right-content-wrapper.active {
+        display: block; }
+    .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-img {
+      display: none; }
+      @media only screen and (max-width: 767px) {
+        .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-img {
+          display: block; } }
+      .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-img .section-title-mobile {
+        font-size: em(20);
+        color: #152843;
+        letter-spacing: 0;
+        font-weight: 100;
+        margin: 0; }
+        .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-img .section-title-mobile-wrapper {
+          background-color: #d7d7d7;
+          padding: em(8) em(20); }
+      .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-img .container__mobile-img {
+        width: 100%;
+        height: em(380); }
+    .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-content, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-infopoint, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-standfirst, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-quote {
+      padding: em(25) em(85) 0 em(55); }
+      @media only screen and (max-width: 767px) {
+        .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-content, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-infopoint, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-standfirst, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-quote {
+          padding: em(20); } }
+      .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-content > div, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-infopoint > div, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-standfirst > div, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-quote > div {
+        margin: 0 auto; }
+      .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-content h1, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-content h2, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-infopoint h1, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-infopoint h2, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-standfirst h1, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-standfirst h2, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-quote h1, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-quote h2 {
+        font-size: em(36);
+        line-height: 2;
+        color: #1d2c44;
+        margin: 0;
+        letter-spacing: em(-1); }
+        @media only screen and (max-width: 767px) {
+          .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-content h1, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-content h2, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-infopoint h1, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-infopoint h2, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-standfirst h1, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-standfirst h2, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-quote h1, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-quote h2 {
+            font-size: em(20); } }
+      .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-content h3, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-content h4, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-content h5, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-content h6, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-infopoint h3, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-infopoint h4, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-infopoint h5, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-infopoint h6, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-standfirst h3, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-standfirst h4, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-standfirst h5, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-standfirst h6, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-quote h3, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-quote h4, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-quote h5, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-quote h6 {
+        font-size: em(24);
+        line-height: 1;
+        color: #1d2c44;
+        margin: 0; }
+        @media only screen and (max-width: 767px) {
+          .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-content h3, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-content h4, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-content h5, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-content h6, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-infopoint h3, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-infopoint h4, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-infopoint h5, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-infopoint h6, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-standfirst h3, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-standfirst h4, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-standfirst h5, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-standfirst h6, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-quote h3, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-quote h4, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-quote h5, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-quote h6 {
+            font-size: em(18); } }
+      .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-content p, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-infopoint p, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-standfirst p, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-quote p {
+        font-size: em(18);
+        line-height: 1.68;
+        color: #162943; }
+      .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-content img, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-content video, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-content iframe, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-infopoint img, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-infopoint video, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-infopoint iframe, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-standfirst img, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-standfirst video, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-standfirst iframe, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-quote img, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-quote video, .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-quote iframe {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 1em; }
+    @media only screen and (max-width: 767px) {
+      .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-standfirst {
+        padding-top: 0; } }
+    .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-standfirst p {
+      font-size: em(36);
+      line-height: 1.5;
+      color: #1d2c44;
+      margin: 0;
+      font-weight: 900; }
+      @media only screen and (max-width: 767px) {
+        .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-standfirst p {
+          font-size: em(20); } }
+    @media only screen and (max-width: 767px) {
+      .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-quote {
+        padding-top: 0; } }
+    .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-quote p {
+      font-size: em(36);
+      line-height: 1.5;
+      color: #1d2c44;
+      margin: 0;
+      font-weight: 900; }
+      @media only screen and (max-width: 767px) {
+        .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-quote p {
+          font-size: em(20); } }
+    .section-twoCol-container .section-twoCol-wrapper .right-twoCol-container .section-quote strong.hide {
+      display: none; }
+
+.container__infographics {
+  height: 100%;
+  position: absolute;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background-color: crimson;
+  display: none;
+  z-index: 3; }
+
+.infographics {
+  padding: em(40);
+  position: relative;
+  width: 100%;
+  height: 100%; }
+  .infographics-wrapper {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    padding: em(40); }
+    .infographics-wrapper::-webkit-scrollbar {
+      width: em(5); }
+    .infographics-wrapper::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      border-radius: em(10);
+      background: #d6d6d6; }
+    .infographics-wrapper::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+      background-color: #b6b6b6; }
+
+.infographics-block {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto; }
+  .infographics-block > div {
+    margin: 0 auto !important; }
+  .infographics-block video, .infographics-block iframe, .infographics-block img {
+    width: 100%; }
+  @media only screen and (max-width: 767px) {
+    .infographics-block {
+      padding: em(20) em(20) 0 em(20); } }
+
+.section-infographic-mobile {
+  display: none; }
+  @media only screen and (max-width: 767px) {
+    .section-infographic-mobile {
+      display: block; } }
+
+.full-width-wrapper {
+  display: none; }
+
+.section-twoCol-container.container__full-width .left-twoCol-container {
+  width: 100%; }
+  .section-twoCol-container.container__full-width .left-twoCol-container > div {
+    padding: 0 !important; }
+
+.section-twoCol-container.container__full-width .right-twoCol-container {
+  display: none; }
+
+.section-twoCol-container.container__full-width .left-content-container {
+  margin: 0 auto;
+  padding: em(40);
+  display: none; }
+
+.section-twoCol-container.container__full-width .left-content-block > div {
+  margin: 0 auto; }
+
+.section-twoCol-container.container__full-width .left-content-wrapper {
+  height: auto !important; }
+
+.section-twoCol-container.container__full-width .left-twoCol-wrapper {
+  position: relative !important; }
+
+.section-twoCol-container.container__full-width .full-width-wrapper {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: em(40) em(20) em(20) em(20); }
+  .section-twoCol-container.container__full-width .full-width-wrapper > div {
+    margin: 0 auto; }
+
+.container__two-col-separator {
+  width: 100%;
+  height: em(7);
+  background-color: #1d275a; }

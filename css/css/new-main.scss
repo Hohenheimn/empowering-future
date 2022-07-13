@@ -1,0 +1,91 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+@font-face {
+    font-family: 'econSans-bold';
+    src: url('fonts/econs-sans/EconSansOS-Bold.ttf') format('truetype');
+ }
+@font-face {
+    font-family: 'econSans-light';
+    src: url('fonts/econs-sans/EconSansOS-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'econSans-medium';
+    src: url('fonts/econs-sans/EconSansOS-Medium.ttf') format('truetype');
+}
+
+$econB: 'econSans-bold';
+$econL: 'econSans-light';
+$econM: 'econSans-medium';
+
+@font-face {
+    font-family: 'zirkon-black';
+    src: url('fonts/Zirkon/GTZirkon-Black.ttf') format('truetype');
+  }
+ @font-face {
+    font-family: 'zirkon-bold';
+    src: url('fonts/Zirkon/GTZirkon-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'zirkon-medium';
+    src: url('fonts/Zirkon/GTZirkon-Medium.ttf') format('truetype');
+}
+
+$zirkonBlack: 'zirkon-black';
+$zirkonBold: 'zirkon-bold';
+$zirkonMedium: 'zirkon-medium';
+
+h1, h2, h3, h4, h5{font-family: $zirkonBlack;}
+p, li, a{font-family: $econM;}
+
+.eco-head{
+    width: 100%; padding: 0 32px; display: flex; justify-content: center; align-items: center; height: 85px; 
+    background-color: white; z-index: 999; position: fixed; top: 0; box-shadow: 0 0 10px 0 rgb(204, 204, 204);
+    nav{width: 100%; max-width: 1432px; display: flex; align-items: center; justify-content: space-between; 
+        margin: auto; padding: 10px 0;
+      .logo-economist{
+        img{width: 120px; height: auto;}
+      }
+      .menu{ display: none;
+        p{font-size: 18px; font-family: $econB;}
+      }
+      .menu-list{display: flex; list-style: none; padding: 0;
+        li{margin-left: 30px;}
+        a{font-family: $econM; font-size: 16px; text-decoration: none; color: black;}
+        a:hover{text-decoration: underline;}
+      }
+  
+      .button{display: none; height: 25px; width: 30px; position: relative;
+        .line{width: 100%; height: 2px; background-color: black; position: absolute;}
+        .top{left: 0; top: 0; transition: .5s ease;}
+        .center{left: 0; top: 50%; transform: translateY(-50%); transition: .5s ease;}
+        .bottom{left: 0; bottom: 0; transition: .5s ease;}
+  
+        .rotate-top{ transform: rotate(50deg); transform-origin: left;}
+        .rotate-bottom{transform: rotate(-50deg); transform-origin: left;}
+        .translate-center{left: -50%; opacity: 0;}
+      }
+    }
+}
+
+.em-new-banner{ width: 95%; margin: auto; max-width: 1432px;
+    .container{ position: relative; display: flex;  align-items: flex-end; justify-content: space-between; padding-bottom: 60px;
+        &::after{content: ''; z-index: -1; position: absolute; bottom: 0; right: 20%;height: 90%; aspect-ratio: 1/1; background-color: #f5f4ef; }
+        .text-container{ width: 60%; z-index: 1; padding-top: 50px;
+            h1{font-size: clamp(24px, 4vw, 64px); line-height: 100%; margin-bottom: clamp(10px, 2vw, 20px);}
+            p{font-size: 16px; line-height: 1.8;}
+        }
+        aside{ width: 35%;  padding-bottom: 60px; align-self: flex-start;
+            img{width: 100%; position: relative;}
+        }
+    }
+}
+
+.maxWid{ width: 95%; margin: auto; max-width: 1432px; }
+.maxWid-2{ width: 100%; margin: auto; max-width: 1650px; }
+
+.mt{margin-top: 85px;}
+
+.em-supported{display: flex; align-items: center; justify-content: flex-end; padding: 5px 0;
+    p{font-family: $econB; margin-right: 5px;}
+    img{height: 35px; width: auto;}
+}
