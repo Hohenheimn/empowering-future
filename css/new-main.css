@@ -178,11 +178,33 @@ p, li, a {
   list-style: none;
   padding: 0;
   margin: 0;
+  position: relative;
+  width: 80%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.eco-head nav .menu-list .container-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .eco-head nav .menu-list li {
   margin-left: 30px;
-  position: relative;
+}
+
+.eco-head nav .menu-list li label {
+  cursor: pointer;
+}
+
+.eco-head nav .menu-list li input[type=checkbox] {
+  display: none;
 }
 
 .eco-head nav .menu-list li ul {
@@ -190,31 +212,71 @@ p, li, a {
   -webkit-transform-origin: top;
           transform-origin: top;
   list-style: none;
-  width: 250px;
+  width: 100%;
+  background-color: #f6f7f8;
+  border-radius: 5px;
+  max-height: 80vh;
+  overflow-y: auto;
   -webkit-transform: rotateX(90deg);
           transform: rotateX(90deg);
+  transform-origin: top;
   position: absolute;
-  top: calc(100% + 35px);
-  left: 0;
-  background-color: white;
+  top: 110%;
+  right: 0;
   margin: 0;
   -webkit-transition: .2s ease-in;
   transition: .2s ease-in;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 0;
 }
 
 .eco-head nav .menu-list li ul li {
   margin: 0;
-  width: 100%;
-  width: 100%;
+  width: 50%;
 }
 
 .eco-head nav .menu-list li ul li a {
   display: inline-block;
-  padding: 10px;
+  padding: 20px;
   width: 100%;
 }
 
-.eco-head nav .menu-list a {
+.eco-head nav .menu-list li ul li a img {
+  width: 100%;
+  aspect-ratio: 2/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.eco-head nav .menu-list li ul li a h5 {
+  font-size: clamp(14px, 2vw, 18px);
+}
+
+.eco-head nav .menu-list li ul li a:hover {
+  background-color: #e2e2e2;
+}
+
+.eco-head nav .menu-list li ul li a:hover h5 {
+  color: #e3120b;
+}
+
+.eco-head nav .menu-list li ul.single {
+  width: 50%;
+}
+
+.eco-head nav .menu-list li ul.single li {
+  width: 100%;
+}
+
+.eco-head nav .menu-list a, .eco-head nav .menu-list label {
   font-family: "econSans-medium";
   font-size: 16px;
   text-decoration: none;
@@ -224,19 +286,19 @@ p, li, a {
   padding: 8px;
 }
 
-.eco-head nav .menu-list a i {
+.eco-head nav .menu-list a i, .eco-head nav .menu-list label i {
   margin-left: 10px;
 }
 
-.eco-head nav .menu-list a:hover {
+.eco-head nav .menu-list a:hover, .eco-head nav .menu-list label:hover {
   background-color: #e3120b;
   color: white;
 }
 
 .eco-head nav .menu-list li:hover ul {
-  -webkit-transform: rotateX(0deg);
-          transform: rotateX(0deg);
-  background-color: white;
+  height: auto;
+  -webkit-transform: rotateX(0);
+          transform: rotateX(0);
 }
 
 .eco-head nav .button {
@@ -299,6 +361,9 @@ p, li, a {
   width: 95%;
   margin: auto;
   max-width: 1432px;
+  height: auto;
+  min-height: 250px;
+  max-height: 80vh;
 }
 
 .em-new-banner .container {
@@ -345,6 +410,10 @@ p, li, a {
   line-height: 1.8;
 }
 
+.em-new-banner .container .text-container .em-supported {
+  display: none;
+}
+
 .em-new-banner .container aside {
   width: 35%;
   padding-bottom: 60px;
@@ -382,10 +451,10 @@ p, li, a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  min-height: 60px;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  padding: 30px 0;
   overflow: hidden;
   margin-bottom: clamp(20px, 3vw, 50px);
 }
@@ -777,6 +846,9 @@ p, li, a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 85vh;
+  min-height: inherit;
+  max-height: 700px;
 }
 
 .new-innerpage-header section .img-container {
@@ -785,7 +857,7 @@ p, li, a {
       align-self: flex-start;
   padding-bottom: 40px;
   position: relative;
-  height: clamp(250px, 50vw, 800px);
+  height: clamp(250px, 50vw, 100%);
 }
 
 .new-innerpage-header section .img-container::after {
