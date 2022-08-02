@@ -54,24 +54,26 @@
         transform-origin: top; position: fixed; left: 0; top: 0; z-index: 9;
         box-shadow: 9px 11px 15px 0 rgb(195 194 194 / 57%); background-color: #ededed; display: flex; 
         flex-direction: column; width: 100%; padding: 20px;  
-        width: 100%; height: 100%; justify-content: flex-start; padding-top: 80px;
+        width: 100%; height: 100%; justify-content: flex-start; padding-top: 80px; align-items: center;
     }
 
     .eco-head nav .button{z-index: 999;}
 
     .eco-head nav .toggle-menu{transform: rotateX(0deg);}
     
-    .eco-head nav .menu-list li{margin-left: 0; margin-bottom: 0px;}
+    .eco-head nav .menu-list li{margin-left: 0; margin-bottom: 10px;}
 
     .eco-head nav .menu-list li:nth-last-child(1){margin-bottom: 0;}
 
-    .eco-head nav .menu-list li label, .eco-head nav .menu-list li a{padding-top: 13px;}
+    .eco-head nav .menu-list li label, .eco-head nav .menu-list li a{margin-bottom: 10px; font-family: "zirkon-black" !important;}
+
+    .eco-head nav .menu-list .container-list{width: 100%;}
 
     .eco-head nav .button{display: block;}
 
     .eco-head nav .menu{display: inline;}
 
-    .eco-head nav .menu-list a{width: 100%; display: inherit; font-size: 24px;}
+    .eco-head nav .menu-list a{width: 100%; display: inherit; font-size: 32px;  padding: 0 60px;}
 
     .eco-head nav .menu-list li ul{max-height: unset; position: static; height: 0; padding: 0; background-color: transparent;}
 
@@ -81,7 +83,7 @@
 
     .slick-dots li button{ height: 10px !important; width: 10px !important;}
 
-    .eco-head nav .menu-list li label{width: 100%; display: inherit; font-size: 24px;}
+    .eco-head nav .menu-list li label{width: 100%; display: inherit; font-size: 32px; padding: 0 60px;}
 
     .eco-head nav .menu-list li label:hover{background-color: transparent; color: black;}
 
@@ -89,11 +91,7 @@
 
     .eco-head nav .menu-list li ul li a h5{font-size: 18px;}
 
-    .eco-head nav .menu-list li input[type=checkbox]:checked ~ ul{height: auto; padding: 10px; transform: rotateX(0deg);}
-
-    .eco-head nav .menu-list li input[type=checkbox]:checked ~ label{background-color: #c23023; color: white;}
-
-    .eco-head nav .logo-economist { z-index: 99;}
+    .eco-head nav .menu-list li input[type=checkbox]:checked ~ ul{height: auto; transform: rotateX(0deg);}
 
 }
 @media(max-width: 690px){
@@ -134,8 +132,22 @@
     .new-innerpage-header section{flex-wrap: wrap; height: inherit;}
     .new-innerpage-header section .img-container{width: 80%; order: 2; height: clamp(250px, 50vw, 800px);}
     .new-innerpage-header section .img-container img{max-width: 400px;}
-    .new-innerpage-header section .text-container{width: 90%; order: 1; padding: 0; margin: 20px auto;}
+    .new-innerpage-header section .text-container{width: 90%; order: 1; padding: 0; margin: 20px auto; margin-top: 60px;}    
     .new-innerpage-header{margin-bottom: 60px;}
+
+    .em-new-banner .container .text-container{padding-top: 60px; padding-bottom: 0;}
+    .em-new-banner .container .text-container h1{line-height: 1.19;}
+
+    .eco-head nav .menu-list li a:hover{background-color: transparent; color: black;}
+
+    .eco-head nav .menu-list li ul li a h5{padding: 0 50px; line-height: 1;}
+
+    .eco-head nav .menu-list li ul li a{display: flex; flex-direction: column;}
+
+    .eco-head nav .menu-list li ul li a{padding: 0 !important; margin-bottom: 15px;}
+
+    .eco-head nav .menu-list li ul li a img{margin-bottom: 15px;}
+
 
 
     
@@ -161,23 +173,18 @@
 
     .eco-head nav .menu-list li ul li{width: 100%;}
 
-    .eco-head nav .menu-list li ul li a{padding: 0; margin-bottom: 10px;}
-
     .eco-head nav .menu-list li ul.single{width: 100%;}
-
-    .em-new-banner .container .text-container h1{line-height: 1.19;}
-
-    .em-new-banner .container .text-container{padding-top: 50px; padding-bottom: 0;}
-
-    .new-innerpage-header section .text-container{margin-top: 50px;}    
 
     .eco-head nav .menu-list{padding-left: 0; padding-right: 0;}
 
     .eco-head nav .menu-list li label,   .eco-head nav .menu-list li a{padding: 0 32px; padding-top: 6px;}
 
-    .eco-head nav .menu-list li{padding: 5px 0;}
-
     .readmore{width: 200px; height: 35px; font-size: 16px;}
+
+    .eco-head nav .menu-list li label, .eco-head nav .menu-list li a{padding: 0 55px !important; font-size: 24px; margin-bottom: 0;}
+    
+
+    .eco-head nav .menu-list .container-list{width: 100%;}
     
 }
 
